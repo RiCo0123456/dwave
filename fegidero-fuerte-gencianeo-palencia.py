@@ -13,7 +13,7 @@ def setValues(x):
 # trackbars will b  e used for setting
 # the upper and lower ranges of the
 # HSV required for particular colour
-cv2.namedWindow("Color detectors")
+cv2.Window("Color detectors")
 cv2.createTrackbar("Upper Hue", "Color detectors",
                    153, 180, setValues)
 cv2.createTrackbar("Upper Saturation", "Color detectors",
@@ -57,7 +57,7 @@ colorIndex = 0
 # Here is code for Canvas setup
 paintWindow = np.zeros((471, 636, 3)) + 255
   
-cv2.namedWindow('Paint', cv2.WINDOW_AUTOSIZE)
+cv2.Window('Paint', cv2.WINDOW_AUTOSIZE)
   
  
 # Loading the default webcam of PC.
@@ -222,8 +222,8 @@ while True:
     cv2.imshow("Paint", paintWindow)
     cv2.imshow("mask", Mask)
   
-    # If the 'q' key is pressed then stop the application
-    if cv2.waitKey(1) & 0xFF == ord("q"):
+    # If the 'c' key is pressed then stop the application
+    if cv2.waitKey(1) & 0xFF == ord("c"):
         break
  
 # Release the camera and all resources
