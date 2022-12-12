@@ -1,0 +1,6 @@
+List of Libraries:
+NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+OpenCV is a Python library that is used to solve computer vision problems. Computer vision include understanding and analyzing digital images by the computer and process the images or provide relevant data after analyzing the image. It is an open-source library used in machine learning and image processing.It performs tasks such as recognizing handwritten digits, human faces and objects.
+
+Deques are a generalization of stacks and queues (the name is pronounced “deck” and is short for “double-ended queue”). Deques support thread-safe, memory efficient appends and pops from either side of the deque with approximately the same O(1) performance in either direction. It is preferred over a list in the cases where we need quicker append and pop operations from both the ends of the container.
